@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\动画类">
+      <UniqueIdentifier>{941747c2-8083-4189-9836-139def534856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\场景类">
+      <UniqueIdentifier>{681a892a-af9e-4a75-8b66-d47372a19085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\工具类">
+      <UniqueIdentifier>{a5778984-2151-43b4-b37c-a44e48e1aafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\角色类">
+      <UniqueIdentifier>{5118b4f9-606a-4ddc-9211-2cf28c3c115a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\子弹类">
+      <UniqueIdentifier>{b336d57a-48ec-493c-8315-a1e5e0d356e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameScene.h">
+      <Filter>头文件\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>头文件\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>头文件\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="Atlas.h">
+      <Filter>头文件\动画类</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件\工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeScene.h">
+      <Filter>头文件\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>头文件\动画类</Filter>
+    </ClInclude>
+    <ClInclude Include="Charactor.h">
+      <Filter>头文件\角色类</Filter>
+    </ClInclude>
+    <ClInclude Include="Zhezi.h">
+      <Filter>头文件\角色类</Filter>
+    </ClInclude>
+    <ClInclude Include="Pig.h">
+      <Filter>头文件\角色类</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件\子弹类</Filter>
+    </ClInclude>
+    <ClInclude Include="Zhezi_bullet.h">
+      <Filter>头文件\子弹类</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
